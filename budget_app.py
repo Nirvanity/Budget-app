@@ -29,19 +29,3 @@ class Budget:
 	
 
 
-		
-food = Budget("food", 100056)
-food.withdrawFunds(56789)
-food.balance()
-
-bags = Budget("bags")
-bags.balance()
-
-food.transferFunds(bags, 100)
-bags.balance()
-food.balance()
-
-music = Budget("music", 123456)
-music.withdrawFunds(70980)
-music.depositFunds(6787)
-music.balance()
